@@ -1,0 +1,36 @@
+.profile {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #478ec5;
+}
+.descrBox {
+  margin: 0;
+  text-align: center;
+  padding: 15px;
+}
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+.name {
+  font-weight: 700;
+  font-size: 25px;
+}
+.stats {
+  background-color: #dfec98;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  padding: 0;
+  justify-content: center;
+  height: 70px;
+  margin: 0;
+}
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
